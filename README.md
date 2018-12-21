@@ -19,6 +19,6 @@ r: Display Rotten Tomatoes info.
 ** Token value is mandatory https://omdbapi.com/apikey.aspx **
 
 
-*Future improvements:*
-*- Add paramaters validation.*
-*- Support wider functionalities from API.*
+Future improvements:
+- Add paramaters validation.
+- Support wider functionalities from API.
