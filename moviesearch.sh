@@ -27,14 +27,14 @@ done
 if [ -n "$SEARCH" ]; then
     if [ -n "$TOKEN" ]; then
         URL="http://www.omdbapi.com/?s=$SEARCH&apikey=$TOKEN"
-        curl $URL | python -m json.tool
+        curl -s $URL | python -m json.tool
     else 
         echo "Token is mandatory"
     fi
 else
     if [ -n "$TOKEN" ]; then
         URL="http://www.omdbapi.com/?i=$ID&tomatoes=$ROTTEN&apikey=$TOKEN"
-        curl $URL | python -m json.tool
+        curl -s $URL | python -m json.tool
     else 
         echo "Token is mandatory"
     fi
