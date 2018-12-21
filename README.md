@@ -22,3 +22,4 @@ r: Display Rotten Tomatoes info.
 Future improvements:
 - Add paramaters validation.
 - Add wider support for API functionalities.
+- Add file export option.
